@@ -50,8 +50,8 @@ void exibirCarta(CartaSuperTrunfo carta) {
     printf("Código da Carta: %s\n", carta.codigoCarta);
     printf("Nome da Cidade: %s\n", carta.nomeCidade);
     printf("População: %d\n", carta.populacao);
-    printf("Área: %.2f km²\n", carta.area);
-    printf("PIB: R$ %.2f\n", carta.pib);
+    printf("Área: %f km²\n", carta.area);
+    printf("PIB: R$ %f\n", carta.pib);
     printf("Pontos Turísticos: %d\n", carta.pontosTuristicos);
     printf("\n");
 }
@@ -71,15 +71,3 @@ int main() {
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-        }
